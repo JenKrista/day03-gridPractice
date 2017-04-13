@@ -12,28 +12,35 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="container-fluid">
-  <p>[container-fluid]</p>
+  <body class="container-fluid">
+    <p>[container-fluid]</p>
 
   <div class="container">
-    <header class="col-xs-12">
-      <p>[header]</p>
-    </header>
-    <nav class="col-xs-12">
-      <p>[nav]</p>
-    </nav>
+    <div class="row">
+      <header class="col-xs-12">
+        <p>[header]</p>
+      </header>
+    </div>
+    <div class="row">
+      <nav class="col-xs-12">
+        <p>[nav]</p>
+      </nav>
+    </div>
 
   <main>
     <div class="article">
-      <section class="col-xs-9">
-        <p>[content]</p>
-      </section>
-      <aside class="col-xs-3">
-        <p>[aside]</p>
-      </aside>
+      <div class="row">
+        <section class="col-xs-9">
+          <p>[content]</p>
+        </section>
+        <aside class="col-xs-3">
+          <p>[aside]</p>
+        </aside>
+      </div>
     </div>
 
     <div class="promo">
+      <div class="row">
         <div class="col-xs-3">
           <p>[promo 1]</p></div>
         <div class="col-xs-3">
@@ -42,11 +49,15 @@
           <p>[promo 3]</p></div>
         <div class="col-xs-3">
             <p>[promo 4]</p></div>
+      </div>
     </div>
   </main>
-  <footer class="col-xs-12">
-    <p>[footer]</p>
+
+  <footer class="row">
+    <div class="col-xs-12">
+      <p>[footer]</p>
   </footer>
+    </div>
 </div>
   <script
   			  src="http://code.jquery.com/jquery-3.2.1.min.js"
