@@ -1,14 +1,94 @@
-body {
-  background-color: #ff0;
-}
+
 header, nav, section, aside, .promo .col-xs-3, footer {
   padding-top: 10px;
   border:2px solid #000;
 }
 
+@media screen and (max-width:374px){
+
+body {
+    background-color: #ccc;
+}
+
 header {
-  background-color: #00f;
+    background-color:#dcf;
+    height:150px;
+}
+
+nav {
+  background-color: #b9f;
+  height: 75px;
+}
+
+section {
+  background-color: #96f;
+  height: 225px;
+}
+
+aside {
+  background-color: #669;
+  height: 225px;
+}
+
+.promo .col-xs-3 {
+  background-color: #40c;
   height: 150px;
+}
+
+footer {
+  color: #fff;
+  background-color: #103;
+  height: 80px;
+}}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+
+body {
+  background-color: #909;
+}
+
+header {
+  color:#fff;
+  background-color: #60c;
+  height: 150px;
+}
+
+nav {
+  background-color: #9f6;
+  height: 75px;
+}
+section {
+  background-color: #f99;
+  height: 225px;
+}
+
+aside {
+  background-color: #36f;
+  height: 225px;
+}
+
+.promo .col-xs-3 {
+  background-color: #ff6;
+  height: 150px;
+
+}
+
+footer {
+  color: #000;
+  background-color: #ccc;
+  height: 80px;
+}}
+
+
+@media screen and (min-width:768px)  and (max-width:1200px){
+
+body {
+    background-color: #ff0;
+}
+
+header {
+    background-color:#00f;
+    height:150px;
 }
 
 nav {
@@ -29,11 +109,47 @@ aside {
 .promo .col-xs-3 {
   background-color: #f90;
   height: 150px;
-  /*border: 2px solid #000;*/
 }
 
 footer {
   color: #fff;
   background-color: #000;
+  height: 80px;
+}}
+
+@media screen and (min-width:1201px) {
+
+body {
+    background-color: #666;
+}
+
+header {
+    background-color:#90f;
+    height:150px;
+}
+
+nav {
+  background-color: #990;
+  height: 75px;
+}
+
+section {
+  background-color: #090;
+  height: 225px;
+}
+
+aside {
+  background-color: #009;
+  height: 225px;
+}
+
+.promo .col-xs-3 {
+  background-color: #909;
+  height: 150px;
+}
+
+footer {
+  color: #000;
+  background-color: #d2b48c;
   height: 80px;
 }
